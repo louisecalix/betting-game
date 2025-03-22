@@ -1,0 +1,36 @@
+.ticker-wrapper {
+  overflow: hidden;
+  width: 100%;
+  background-color: #ffcc0088;
+  padding: 10px 0;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.ticker-content {
+  display: flex;
+  width: max-content;
+  animation: ticker-scroll 30s linear infinite;
+}
+
+.ticker-text {
+  display: flex;
+  gap: 50px; 
+}
+
+.ticker-text span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

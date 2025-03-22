@@ -1,0 +1,11 @@
+
+
+.element {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 8px 8px 0px 0px rgba(155,155,155,1);
+  }
+
