@@ -11,6 +11,7 @@ export default defineConfig({
   server: {
     hmr: {
       port: process.env.PORT ? parseInt(process.env.PORT) + 2000 : 3001,
+      host: '0.0.0.0'
     },
   },
 });

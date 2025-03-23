@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "PORT=3000 node server/server.js & PORT=3003 node server/server.js & PORT=3002 node server/server.js ",
+    "dev": "PORT=3000 node server/server.js & PORT=3001 node server/server.js & PORT=3002 node server/server.js ",
     "build": "npm run build:client && npm run build:server",
     "build:client": "vite build --outDir dist/client",
     "build:server": "vite build --outDir dist/server --ssr src/server-entry.jsx",
